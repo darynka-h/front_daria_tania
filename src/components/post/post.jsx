@@ -47,7 +47,7 @@
 
 
 import "./post.css";
-import { MoreVert } from "@material-ui/icons";
+import { MoreVert } from "@mui/icons-material";
 import { Users } from "../../users_data";
 import { useState } from "react";
 
