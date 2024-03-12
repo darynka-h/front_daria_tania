@@ -1,5 +1,5 @@
 import './topbar.css';
-import {Home, Search, Person, CalendarMonth} from '@mui/icons-material'
+// import {Home, Search, Person, CalendarMonth} from '@mui/icons-material'
 export default function Topbar() {
     return (
         <div className='topbarContainer'>
@@ -8,14 +8,14 @@ export default function Topbar() {
             </div>
             <div className="topbarCenter">
                 <div className="searchbar">
-                    <Search className='searchIcon'/>
+                    {/* <Search className='searchIcon'/> */}
                     <input placeholder="Search for friend, post or video" 
                            className="searchInput" color="#eff0f6"/>
                 </div>
             </div>
             <div className="topbarRight">
                 <div className="topbarIcons">
-                    <div className="topbarIconItem">
+                    {/* <div className="topbarIconItem">
                         <Home/>
                     </div>
                     <div className="topbarIconItem">
@@ -23,7 +23,7 @@ export default function Topbar() {
                     </div>
                     <div className="topbarIconItem">
                         <CalendarMonth/>
-                    </div>
+                    </div> */}
                 </div>
                 <img src="/assets/userphoto1.jpg" alt="" className="topbarImg"/>  
             </div>
