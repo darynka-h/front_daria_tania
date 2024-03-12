@@ -22,9 +22,9 @@
 //     </div>
 //   );
 // }
-import Post from "./components/post/post"
+import Homepage from './pages/home/Homepage';
 
 function App() {
-    return (<Post/>)
+    return (<Homepage/>)
   }
 export default App;
