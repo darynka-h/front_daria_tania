@@ -35,10 +35,13 @@ export default function Post({ post }) {
             <MoreVert />
           </div> */}
         </div>
-        <div className="postCenter">
+        {data.map((data, i) => (
+        <div className="postCenter" key = {i}>
           <span className="postText">GoTeens!</span>
-          <img className="postImg" src="https://ucummunity-storage.s3.eu-north-1.amazonaws.com/2024-03-09%201325a5a0cc313f452ca76df4d7ebdd9ef6.webp" alt="" />
+          <img className="postImg" src={data.avatar} alt="" />
         </div>
+            ))
+          }
         <div className="postBottom">
           <div className="postBottomLeft">
             <img className="likeIcon" src="assets/heart.png" alt="" />

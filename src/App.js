@@ -1,7 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-
 // function App() {
 //   return (
 //     <div className="App">
@@ -22,6 +21,7 @@
 //     </div>
 //   );
 // }
+
 import Post from './pages/home/Homepage';
 
 function App() {

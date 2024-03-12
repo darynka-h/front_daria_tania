@@ -13,32 +13,32 @@
         "comments":[
           {
           "username":"vitalii",
-          "avatar":"image_url",
-          "text":"string",
+          "avatar": "https://ucummunity-storage.s3.eu-north-1.amazonaws.com/2024-03-09%20130cfa7d91cb5944f7a8a687a9203f77f4.webp",
+          "text":"COMMENT 1",
           "date":"date of commenting"
           },
           {
           "username":"vitalii",
           "avatar":"image_url",
-          "text":"string",
+          "text":"COMMENT 2",
           "date":"date of commenting"
           },
           {
           "username":"vitalii",
           "avatar":"image_url",
-          "text":"string",
+          "text":"COMMENT 3",
           "date":"date of commenting"
           },
           {
           "username":"vitalii",
           "avatar":"image_url",
-          "text":"string",
+          "text":"COMMENT 4",
           "date":"date of commenting"
           },
           {
           "username":"vitalii",
           "avatar":"image_url",
-          "text":"string",
+          "text":"COMMENT 5",
           "date":"date of commenting"
           } 
         ]
