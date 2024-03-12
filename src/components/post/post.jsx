@@ -20,7 +20,8 @@ export default function Post({ post }) {
       <div className="postWrapper">
         <div className="postTop">
           <div className="postTopLeft">
-            <img src="/assets/userphoto1.jpg" alt="" className="postProfileImg"/>
+            {/* <img src="./public/assert/photo1.jpg" alt="" className="postProfileImg"/> */}
+            <img className="postProfileImg" src="https://ucummunity-storage.s3.eu-north-1.amazonaws.com/2024-03-09%201325a5a0cc313f452ca76df4d7ebdd9ef6.webp" alt="" />
             <span className="postUsername"> Дмитро Лопушанський
               {/* {Users.filter((u) => u.id === post?.userId)[0].username} */}
             </span>
