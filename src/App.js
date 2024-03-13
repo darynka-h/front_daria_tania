@@ -22,6 +22,12 @@
 //   );
 // }
 
+// function App() {
+//   for (let i = 0; i < post.length; i++) {
+//     return (<Post/>);
+// }
+    
+//   }
 import Post from './pages/home/Homepage';
 
 function App() {

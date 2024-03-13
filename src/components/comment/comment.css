@@ -1,9 +1,9 @@
-.container {
+/* .container {
     display: flex;
-    justify-content: center; /* horizontally center */
-    align-items: center; /* vertically center */
-    height: 100vh; /* make container full height of viewport */
-  }
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+  } */
   
 .middlebar {
     flex: 2;
@@ -45,13 +45,14 @@
   
   .sidebarFriend {
     height: 60px;
-    width: 95%;
-    background-color: #eff0f6 ;
+    width: 120%;
+    background-color: #aaadc2 ;
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     cursor: pointer;
     border-radius: 15px;
+    
   }
 
   .sidebarFriendImg {
@@ -66,3 +67,7 @@
   .sidebarFriendName {
     font-weight: 500;
   }
+
+  .postDate{
+    font-size: 12px;
+}

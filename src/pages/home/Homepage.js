@@ -12,6 +12,8 @@ export default function Homepage() {
       <div className="homeContainer">
         <Feed/>
         <ComentOn/>
+        <span></span>
+        <div className="try"></div>
         <Rightbar/>
       </div>
     </>

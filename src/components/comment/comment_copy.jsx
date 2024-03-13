@@ -14,27 +14,27 @@ export default function CommentOn() {
                 {data.map((data, i) => (
                     <div className="sidebarFriend" key={i}>
                         <img className="sidebarFriendImg" src={data.posts[0].comments[0].avatar} alt="" />
-                        <span className="postDate">{data.posts[0].comments[0].text}</span>
+                        <span className="sidebarFriendName">{data.posts[0].comments[0].text}</span>
                     </div>
                     ))
                 }
                 {data.map((data, i) => (
                     <div className="sidebarFriend" key={i+1}>
                         <img className="sidebarFriendImg" src={data.posts[0].comments[0].avatar} alt="" />
-                        <span className="postDate">{data.posts[0].comments[i+1].text}</span>
+                        <span className="sidebarFriendName">{data.posts[0].comments[i+1].text}</span>
                     </div>
                     ))
                 }
                 {data.map((data, i) => (
                     <div className="sidebarFriend" key={i}>
                         <img className="sidebarFriendImg" src={data.posts[0].comments[0].avatar} alt="" />
-                        <span className="postDate">{data.posts[0].comments[i+1].text}</span>
+                        <span className="sidebarFriendName">{data.posts[0].comments[i+1].text}</span>
                     </div>
                     ))
                 }
                     <div className="sidebarFriend">
                         <img className="sidebarFriendImg" src="/assets/so4.png" alt="" />
-                        <span className="postDate">UCU Blog</span>
+                        <span className="sidebarFriendName">UCU Blog</span>
                     </div>
                     
             
