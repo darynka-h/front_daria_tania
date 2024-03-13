@@ -31,6 +31,13 @@
 import Post from './pages/home/Homepage';
 
 function App() {
-    return (<Post/>)
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Homepage/>} />
+                <Route path="/personal" element={<Personal />} />
+            </Routes>
+      </BrowserRouter>
+        )
   }
 export default App;
