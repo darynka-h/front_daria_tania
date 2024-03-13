@@ -1,0 +1,10 @@
+.AddTextInput {
+  height: 100px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #eff0f6;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+}
