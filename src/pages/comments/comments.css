@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* .parent {
     height: 300px;
     width: 300px;
@@ -93,11 +92,12 @@ margin: -50px 0 0 -50px;
       margin-bottom: 20px;
  }
 
-  .sidebarChannalList {
+  .sidebarCommentList {
     display:flex;
     align-items: center;
     padding: 0;
     margin: 0;
+   
     list-style: none;
   }
   
@@ -107,7 +107,7 @@ margin: -50px 0 0 -50px;
     background-color: #aaadc2 ;
     display: flex;
     align-items: center;
-    /* margin-bottom: 15px; */
+    margin-bottom: 15px; 
     cursor: pointer;
     border-radius: 15px;
     
@@ -153,8 +153,9 @@ margin: -50px 0 0 -50px;
     flex-direction: column;
     position: sticky;
     /* justify-content: space-between;
-    margin-top: 20px; */
-}
+    margin-top: 20px; 
+}*/
+
 
 .profileTop{
     display: flex;
@@ -270,5 +271,4 @@ margin: -50px 0 0 -50px;
 
 /* .commentStructure{
     margin-left: 10px;
->>>>>>> d38577bf4fd7d1f09cfd4a1ea25bd5a8e423cc0b
 } */

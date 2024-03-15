@@ -20,7 +20,7 @@
       margin-bottom: 20px;
  }
    /*
-  .rightbarFriendList {
+  .rightbarChannalList {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -71,12 +71,16 @@
   } */
 
   .sidebarChannalList {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+
+      display:block;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    
   }
   
-  .sidebarFriend {
+  .sidebarChannal {
     height: 60px;
     width: 95%;
     background-color: #eff0f6 ;
@@ -87,7 +91,7 @@
     border-radius: 15px;
   }
 
-  .sidebarFriendImg {
+  .sidebarChannalImg {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -96,6 +100,6 @@
     margin-right: 10px;
 
   }
-  .sidebarFriendName {
+  .sidebarChannalName {
     font-weight: 500;
   }

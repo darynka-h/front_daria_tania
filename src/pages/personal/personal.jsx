@@ -1,8 +1,9 @@
 import './personal.css';
+import '../../components/feed/feed.css';
 import Topbar from "../../components/topbar/Topbar";
 // import Sidebar from "../../components/sidebar/Sidebar";
-import Feed from "../../components/feed/feed";
-
+import Post from "../../components/post/post";
+import data from 'C:\\Users\\User\\Desktop\\op\\cucu_front\\src\\user_data.json';
 
 export default function Personal() {
     return (
@@ -22,7 +23,14 @@ export default function Personal() {
             </div>
         </div>
         <div className="profileBottom">
-            <Feed/>
+            <div className="feed">
+                <div className="feedWrapper">
+                    <Post/>
+                    {/* {Posts.map(post => (
+                    <Post post={post} key={post.id}  />
+                    ))} */}
+                </div>
+            </div>
         </div>
 
     </>

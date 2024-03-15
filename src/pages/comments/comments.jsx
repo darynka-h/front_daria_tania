@@ -2,7 +2,7 @@ import './comments.css';
 import Topbar from "../../components/topbar/Topbar";
 // import Sidebar from "../../components/sidebar/Sidebar";
 // import Feed from "../../components/feed/feed";
-import data from "C:\\Users\\Daria\\front_daria_tania\\src\\users_data.json"
+import data from "../../user_data.json"
 
 
 // export default function Comments() {
@@ -102,7 +102,7 @@ export default function Comments() {
             </div>
             
             <div className="profileTop">
-                <li className="sidebarChannalList">
+                <li className="sidebarCommentList">
                     {data.map((dataItem, dataIndex) => (
                         <div key={dataIndex}>
                             {dataItem.posts[0].comments.map((comment, commentIndex) => (
@@ -122,4 +122,3 @@ export default function Comments() {
         </>
     );
 }
-
