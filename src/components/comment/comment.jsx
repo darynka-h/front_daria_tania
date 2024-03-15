@@ -32,10 +32,10 @@ export default function CommentOn() {
                     </div>
                     ))
                 }
-                    <div className="sidebarFriend">
+                    {/* <div className="sidebarFriend">
                         <img className="sidebarFriendImg" src="/assets/so4.png" alt="" />
-                        <span className="postDate">UCU Blog</span>
-                    </div>
+                        <span className="sidebarFriendName">UCU Blog</span>
+                    </div> */}
                     
             
                 </li>

@@ -1,43 +1,21 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// function App() {
-//   for (let i = 0; i < post.length; i++) {
-//     return (<Post/>);
-// }
-    
-//   }
-import Post from './pages/home/Homepage';
-
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Homepage from './pages/home/Homepage';
+import Personal from './pages/personal/personal';
+import Comments from './pages/comments/comments';
 function App() {
+
     return (
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Homepage/>} />
-                <Route path="/personal" element={<Personal />} />
-            </Routes>
+        // <Comments/>
+      <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Homepage/>} />
+            <Route path="/personal" element={<Personal />} />
+            <Route path="/comments" element={<Comments />} />
+        </Routes>
       </BrowserRouter>
-        )
-  }
+    );
+
+}
+
 export default App;

@@ -1,5 +1,6 @@
 import "./post.css";
 import data from "C:\\Users\\Daria\\front_daria_tania\\src\\users_data.json"
+import {Link} from 'react-router-dom';
 // import { MoreVert } from '@mui/icons-material';
 // import { Users } from "../../dummyData";
 // import { useState } from "react";
@@ -23,7 +24,7 @@ export default function Post({ post }) {
         {data.map((data, i) => (
           <div className="postTopLeft" key={i}>
 
-            <img src={data.avatar} alt="" className="postProfileImg"/>
+            <Link to="/personal"><img src={data.avatar} alt="" className="postProfileImg"/></Link>
             <span className="postUsername"> {data.first_name} {data.last_name}
               {/* {Users.filter((u) => u.id === post?.userId)[0].username} */}
             </span>
@@ -38,7 +39,7 @@ export default function Post({ post }) {
         {data.map((data, i) => (
         <div className="postCenter" key = {i}>
           <span className="postText">GoTeens!</span>
-          <img className="postImg" src={data.avatar} alt="" />
+          <img className="postImg" src={data.posts[0].photo} alt="" />
         </div>
             ))
           }
@@ -49,7 +50,8 @@ export default function Post({ post }) {
           </div>
           { data.map((data, i) => (
           <div className="postBottomRight" key = {i}>
-            <span className="postCommentText">{data.posts[0].comments.length} comments</span>
+            <Link to="/comments"><span className="postCommentText">{data.posts[0].comments.length} comments</span></Link>
+            {/* <span className="postCommentText">{data.posts[0].comments.length} comments</span> */}
           </div> ))
         }
         </div>
