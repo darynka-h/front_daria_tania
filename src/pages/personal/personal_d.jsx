@@ -7,6 +7,7 @@ import Post from "../../components/post/post_d";
 // import data from 'C:\\Users\\Daria\\front_daria_tania\\src\\user_data.json'
 
 export default function Personal() {
+    
     return (
         <>
         <Topbar />

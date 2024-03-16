@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Homepage from './pages/home/Homepage';
+import Homepage from './pages/home/Homepage_d';
 import Personal from './pages/personal/personal_d';
 import Comments from './pages/comments/comments';
 function App() {
