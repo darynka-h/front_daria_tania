@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 import "./post.css";
 import { MoreVert } from '@mui/icons-material';
-import data from 'C:\\Users\\Daria\\front_daria_tania\\src\\user_data.json';
+import data from 'C:\\Users\\Daria\\front_daria_tania\\src\\user_data.json'
 // import { Users } from "../../dummyData";
 // import { useState } from "react";
 
